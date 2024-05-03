@@ -37,6 +37,8 @@
 
     <body <?php body_class(); ?>>
 
+        <?php wp_body_open(); ?>
+
         <div class="off-canvas-wrapper">
 
             <?php get_template_part( 'dt-assets/parts/nav', 'offcanvas' ); ?>
